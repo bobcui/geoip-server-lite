@@ -1,5 +1,5 @@
 {
-    "name": "huomaotv-ipGeoServer",
+    "name": "huomaotv-geoIpServer",
     "version": "0.0.1",
     "private": false,
     "dependencies": {
