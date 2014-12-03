@@ -3,3 +3,10 @@ npm install -d
 
 #install global
 npm install -d -g
+
+#start daemon
+forever start ipGeoServer.js --host x.x.x.x --port xxxx
+# or short
+forever start ipGeoServer.js -h x.x.x.x -p xxxx
+# or default 127.0.0.1:5127
+forever start ipGeoServer.js

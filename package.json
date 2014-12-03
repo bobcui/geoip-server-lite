@@ -1,9 +1,10 @@
 {
-    "name": "huomaotv-ipLookupServer",
+    "name": "huomaotv-ipGeoServer",
     "version": "0.0.1",
     "private": false,
     "dependencies": {
         "geoip-lite": "",
-        "underscore": ""
+        "underscore": "",
+        "optimist": ""
     }
 }
