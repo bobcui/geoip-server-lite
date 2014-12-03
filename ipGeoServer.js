@@ -4,8 +4,8 @@ var querystring = require('querystring')
 var geoip = require('geoip-lite')
 var _ = require('underscore')
 
-var host = '0.0.0.0'
-var port = 5117
+var host = '127.0.0.1'
+var port = 5127
 
 var defaultSearch = ['country', 'city']
 var defaultGeoData = {
