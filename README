@@ -1,9 +1,6 @@
 #install local
 npm install -d
 
-#install global
-npm install -d -g
-
 #start daemon
 forever start ipGeoServer.js --host x.x.x.x --port xxxx
 # or short
