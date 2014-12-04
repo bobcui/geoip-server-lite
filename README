@@ -1,3 +1,6 @@
+# geoip-lite
+# https://github.com/bluesmoon/node-geoip
+
 #install local
 npm install -d
 
