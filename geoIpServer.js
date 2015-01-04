@@ -6,7 +6,7 @@ var geoip = require('geoip-lite')
 var argv = require('optimist').argv
 
 var host = argv.h || argv.host || '127.0.0.1'
-var port = argv.p || argv.port || 5127
+var port = argv.p || argv.port || 5128
 
 var defaultSearch = ['country', 'city']
 var defaultGeoData = {
@@ -59,4 +59,4 @@ http.createServer(function (req, res) {
     res.end(JSON.stringify(result))
 }).listen(port, host)
 
-console.log('ip lookup server listen on %s:%s', host, port)
+console.log('geo ip server listen on %s:%s', host, port)
